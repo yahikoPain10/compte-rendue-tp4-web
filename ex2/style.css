@@ -1,0 +1,8 @@
+#polynome input {
+  width: 40px;
+  text-align: center;
+}
+#result {
+  color: red;
+  font-size: 2rem;
+}

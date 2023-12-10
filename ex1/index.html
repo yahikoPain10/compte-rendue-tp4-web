@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Exercice 1</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Ajouter un etudiant</legend>
+      <input type="text" name="cne" placeholder="CNE" required><br>
+      <input type="text" name="nom" placeholder="Nom" required><br>
+      <input type="radio" id="m" name="genre" value="Masculin" checked required>
+      <label for="m">Masculin</label>
+      <input type="radio" id="f" name="genre" value="Feminin" required>
+      <label for="f">Feminin</label><br>
+      <input type="text" name="formation" placeholder="Formation" required><br><br>
+      <input type="submit" value="Ajouter">
+    </fieldset>
+  </form>
+
+  <ul id="etudiants"></ul>
+</body>
+</html>

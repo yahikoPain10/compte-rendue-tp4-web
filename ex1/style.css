@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+ul#etudiants {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: .5rem;
+  border-radius: .5rem;
+  background-color: whitesmoke;
+}
+
+.masculin, .feminin {
+  font-size: 3rem;
+}
+
+.masculin::after {
+  color: cornflowerblue;
+  content: "♂️";
+}
+
+.feminin::after {
+  color: palevioletred;
+  content: "♀️";
+}
