@@ -137,7 +137,7 @@ function Filiere() {
 
 ### Captures d'écran
 
-![1.png](images/1.png)
+![1.png](https://raw.githubusercontent.com/yahikoPain10/compte-rendue-tp4-web/main/ex1/screenshots/1.png)
 
 ## Exercice 2
 
@@ -226,7 +226,7 @@ calcBtn.addEventListener("click", function() {
 
 ### Captures d'écran
 
-![1.png](images/1.png)
+![1.png](https://raw.githubusercontent.com/yahikoPain10/compte-rendue-tp4-web/main/ex2/screenshots/1.png)
 
 ## Exercice 3
 
@@ -350,18 +350,18 @@ function afficherJouers() {
 
 ### Captures d'écran
 
-![1.png](images/1.png)
+![1.png](https://raw.githubusercontent.com/yahikoPain10/compte-rendue-tp4-web/main/ex3/screenshots/1.png)
 
-![2.png](images/2.png)
+![2.png](https://raw.githubusercontent.com/yahikoPain10/compte-rendue-tp4-web/main/ex3/screenshots/2.png)
 
-![3.png](images/3.png)
+![3.png](https://raw.githubusercontent.com/yahikoPain10/compte-rendue-tp4-web/main/ex3/screenshots/3.png)
 
-![4.png](images/4.png)
+![4.png](https://raw.githubusercontent.com/yahikoPain10/compte-rendue-tp4-web/main/ex3/screenshots/4.png)
 
-![5.png](images/5.png)
+![5.png](https://raw.githubusercontent.com/yahikoPain10/compte-rendue-tp4-web/main/ex3/screenshots/5.png)
 
-![6.png](images/6.png)
+![6.png](https://raw.githubusercontent.com/yahikoPain10/compte-rendue-tp4-web/main/ex3/screenshots/6.png)
 
-![7.png](images/7.png)
+![7.png](https://raw.githubusercontent.com/yahikoPain10/compte-rendue-tp4-web/main/ex3/screenshots/7.png)
 
-![8.png](images/8.png)
+![8.png](https://raw.githubusercontent.com/yahikoPain10/compte-rendue-tp4-web/main/ex3/screenshots/8.png)
