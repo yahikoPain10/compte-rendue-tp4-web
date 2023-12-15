@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  background-color: rgb(230, 249, 255);
+}
+
+caption {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #000;
+  text-align: center;
+  padding: .5rem 2rem;
+}
+
+caption:only-child {
+  color: #111;
+}
+
+caption {
+  color: #000;
+}
+
+thead tr {
+  background-color: #eee;
+}
+
+tbody tr {
+  background-color: white;
+}
+
+tr:not(thead tr):hover {
+  color: red;
+}

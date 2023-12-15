@@ -1,0 +1,58 @@
+:root {
+  --w: 100px;
+  --h: 100px;
+  --gap: 20px; /*Utilisé pour la superposition des carrés*/
+}
+body {
+  margin: 0;
+  width: calc(2 * var(--w));
+}
+
+.carre {
+  width: var(--w);
+  height: var(--h);
+  display: grid;
+  place-items: center;
+}
+
+.c1 {background-color: aqua}
+.c2 {background-color: plum}
+.c3 {background-color: burlywood}
+.c4 {background-color: darksalmon}
+
+/* le positionnement absolu */
+.carre.abs {position: absolute}
+.c1.abs {left: 0;top: 0}
+.c2.abs {left: 0;top: var(--h)}
+.c3.abs {left: var(--w);top: 0}
+.c4.abs {left: var(--w);top: var(--h)}
+
+/* le positionnement flottant */
+.c3.flt, .c4.flt {float: right}
+.c3.flt {margin-top: calc(-2 * var(--h))}
+.c4.flt {margin-top: calc(-1 * var(--h))}
+
+/* le positionnement relatif */
+.carre.rel {position: relative}
+.c1.rel {left: 0;top: 0}
+.c3.rel, .c4.rel {left: var(--w); top: calc(-2 * var(--h))}
+
+/* Superposition des carrés */
+.carre.sup {position: absolute}
+.c1.sup {
+  left: 0;
+  top: 0;
+}
+.c2.sup {
+  left: calc(var(--w) - var(--gap));
+  top: calc(var(--h) - var(--gap));
+  z-index: 1;
+}
+.c3.sup {
+  left: 0;
+  top: calc(var(--h) + var(--gap));
+}
+.c4.sup {
+  left: calc(var(--w) - var(--gap));
+  top: calc(var(--h) * 2);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Vos coordonnée</legend>
+      <label>Nom complet: </label>
+      <input class="champ" type="text" placeholder="Votre nom">
+      <label>Date de naissance: </label>
+      <input class="champ" type="date">
+      <label>Email: </label>
+      <input class="champ" type="email" placeholder="Votre email">
+      <label>Site de votre institution: </label>
+      <input class="champ" type="url" placeholder="http://www">
+      <input type="radio" id="h" checked><label for="h">Homme</label>
+      <input type="radio" id="h"><label for="f">Femme</label><br>
+      <select><option selected>Choisir votre pays</option></select>
+    </fieldset>
+    <fieldset>
+      <legend>Vos loisirs</legend>
+      <input type="checkbox" name="l" id="1" checked><label for="1">Voyage</label>
+      <input type="checkbox" name="l" id="2" checked><label for="2">Lecture</label>
+      <input type="checkbox" name="l" id="3"><label for="3">Sport</label><br>
+      <textarea rows="3" placeholder="Descrivez vos loisirs en detail"></textarea>
+    </fieldset>
+    <div>
+      <input class="btn" type="reset" value="Effacer">
+      <input class="btn" type="submit" value="Envoyer">
+    </div>
+  </form>
+</body>
+</html>

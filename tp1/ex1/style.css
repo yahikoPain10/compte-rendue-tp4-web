@@ -1,0 +1,21 @@
+/* Bon selecteur pour h1 */
+h1 {}
+
+/* Tous les sous-titres h2 */
+h2 {}
+
+/* Les deux images */
+img {}
+
+/* La première image */
+img:first-child {}
+
+/* La dernière image */
+img:last-child {}
+img:nth-child(2) {}
+
+/* Les paragraphes pairs */
+p:nth-child(2n) {}
+
+/* Les paragraphes impaires */
+p:nth-child(2n+1) {}
